@@ -10,12 +10,22 @@ composer install
 cp .env.example .env
 ```
 
-#### Set Database Detail
+#### Set Database Detail & run migration
+
+```
+php artisan migrate
+```
 
 #### Install NPM Dependencies
 
 ```
 npm install
+```
+
+#### Set Application key
+
+```
+php artisan key:generate
 ```
 
 #### Start Laravel Project
